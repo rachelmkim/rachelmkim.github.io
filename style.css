@@ -1,10 +1,15 @@
+@font-face {
+    font-family: Ephesis;
+    src: url(fonts/Ephesis-Regular.ttf);
+}
+
 html, body {
     /* display: flex;
     align-items: center;
     
     height: 100%; */
     margin: 0 auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Times, 'Times New Roman', serif;
     max-width: 1000px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -41,12 +46,12 @@ main {
 
     .left {
         text-align: center;
-        flex: 30%;
+        flex: 33%;
         margin: 25px;
     }
     
     .right {
-        flex: 70%;
+        flex: 67%;
         margin: 25px;
         font-size: large;
     }
@@ -57,8 +62,13 @@ main {
     display: flexbox;
 }
 
+#hello {
+    font-family: Ephesis;
+    font-weight: normal;
+}
+
 #name {
-    font-size: xx-large;
+    background-image: linear-gradient(white 0%, white 33%,#FFFF99 33%, #FFFF99 100%);
 }
 
 a:link {
