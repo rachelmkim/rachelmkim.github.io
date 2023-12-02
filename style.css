@@ -67,7 +67,7 @@ main {
     font-weight: normal;
 }
 
-#name {
+highlight {
     background-image: linear-gradient(white 0%, white 33%,#FFFF99 33%, #FFFF99 100%);
 }
 
@@ -84,6 +84,8 @@ a:visited {
 a:hover { 
     text-decoration: none;
 }
+
+
 
 /* footer {
     text-align: center;
