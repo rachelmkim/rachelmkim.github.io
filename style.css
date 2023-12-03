@@ -68,7 +68,7 @@ main {
 }
 
 highlight {
-    background-image: linear-gradient(white 0%, white 33%,#FFFF99 33%, #FFFF99 100%);
+    background-image: linear-gradient(white 0%, white 33%, #FFFF99 33%, #FFFF99 100%);
 }
 
 a:link {
@@ -85,6 +85,9 @@ a:hover {
     text-decoration: none;
 }
 
+/* li {
+    list-style-type: "— ";
+} */
 
 
 /* footer {
