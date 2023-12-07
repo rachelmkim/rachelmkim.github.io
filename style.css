@@ -18,6 +18,8 @@ html, body {
 main {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 25px;
     /* justify-content: space-between; */
   } 
 
