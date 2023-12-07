@@ -11,8 +11,8 @@ html, body {
     margin: 0 auto;
     font-family: Times, 'Times New Roman', serif;
     max-width: 1000px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
   }
 
 main {
