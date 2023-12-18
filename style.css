@@ -9,13 +9,14 @@ html, body {
     
     height: 100%; */
     margin: 0 auto;
-    font-family: Times, 'Times New Roman', serif;
+    /* font-family: Times, 'Times New Roman', serif; */
     max-width: 1000px;
+    font-family: 'PT Serif', serif;
     /* margin-top: 25px;
     margin-bottom: 25px; */
   }
 
-main {
+#aboutme {
     display: flex;
     flex-wrap: wrap;
     margin-top: 25px;
@@ -34,7 +35,7 @@ main {
 
 .right {
     flex-basis: 100%;
-    font-size: large;
+    /* font-size: large; */
     margin-right: 25px;
     margin-left: 25px;
     /* height: 100px; */
@@ -42,20 +43,22 @@ main {
 }
 
 @media (min-width: 750px) {
-    main {
+    #aboutme {
         flex-wrap: nowrap;
     }
 
     .left {
-        text-align: center;
+        /* text-align: center; */
         flex: 33%;
-        margin: 25px;
+        margin-right: 25px;
+        margin-left: 25px;
     }
     
     .right {
         flex: 67%;
-        margin: 25px;
-        font-size: large;
+        margin-left: 25px;
+        margin-right: 25px;
+        /* font-size: large; */
     }
 }
 
@@ -64,7 +67,15 @@ main {
     display: flexbox;
 }
 
+h1 {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'PT Sans', sans-serif;
+}
+
 #hello {
+    margin-left: 0px;
+    margin-right: 0px;
     font-family: Ephesis;
     font-weight: normal;
 }
