@@ -1,8 +1,3 @@
-@font-face {
-    font-family: Ephesis;
-    src: url(/fonts/Ephesis-Regular.ttf);
-}
-
 html, body {
     /* display: flex;
     align-items: center;
@@ -12,6 +7,7 @@ html, body {
     /* font-family: Times, 'Times New Roman', serif; */
     max-width: 1000px;
     font-family: 'PT Serif', serif;
+    /* background-color: ivory; */
     /* margin-top: 25px;
     margin-bottom: 25px; */
   }
@@ -65,19 +61,45 @@ html, body {
 #profile-picture {
     border-radius: 50px;
     display: flexbox;
-}
-
-h1 {
-    margin-left: 25px;
-    margin-right: 25px;
-    font-family: 'PT Sans', sans-serif;
+    border-color: black;
+    border-width: 0px;
+    /* border-width: 2.5px; */
+    border-style: solid;
 }
 
 #hello {
     margin-left: 0px;
     margin-right: 0px;
-    font-family: Ephesis;
+    font-family: 'Ephesis', 'cursive';
     font-weight: normal;
+}
+
+.links {
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    /* background-color: #ffffcc; */
+    border-color: black;
+    border-width: 2.5px;
+    border-style: solid;
+    /* display: flexbox; */
+
+}
+
+#projects {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.paper_name{
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
 }
 
 highlight {
@@ -98,9 +120,11 @@ a:hover {
     text-decoration: none;
 }
 
-/* li {
-    list-style-type: "— ";
-} */
+li {
+    list-style-type: "";
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 
 /* footer {
