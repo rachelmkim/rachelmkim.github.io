@@ -17,8 +17,8 @@ html, body {
 
 
 footer {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
     font-family: 'Dancing Script';
     font-weight: normal;
     text-align: center;
@@ -38,20 +38,6 @@ a:hover {
     text-decoration: underline;
 }
 
-#pubs {
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.project{
-    margin-bottom: 1em; 
-}
-
-.paper_name{
-    font-weight: bold;
-    /* background-image: linear-gradient(ivory 0%, ivory 33%, #FFFF99 33%, #FFFF99 100%); */
-}
-
 /*****/
 
 #name_link a:link {
@@ -65,6 +51,22 @@ a:hover {
 
 #name_link a:hover { 
     text-decoration: none;
+}
+
+#profile-picture {
+    border-radius: 50px;
+    display: flexbox;
+    border-color: black;
+    border-width: 0px;
+    border-style: solid;
+}
+
+#hello {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Dancing Script';
+    font-weight: normal;
+    font-size: xx-large;
 }
 
 #aboutme {
@@ -105,23 +107,3 @@ a:hover {
         margin-right: 25px;
     }
 }
-
-#profile-picture {
-    border-radius: 50px;
-    display: flexbox;
-    border-color: black;
-    border-width: 0px;
-    border-style: solid;
-}
-
-#hello {
-    margin-left: 0px;
-    margin-right: 0px;
-    font-family: 'Dancing Script';
-    font-weight: normal;
-    font-size: xx-large;
-}
-
-/* highlight {
-    background-image: linear-gradient(white 0%, white 33%, #FFE800 33%, #FFE800 100%);
-} */
