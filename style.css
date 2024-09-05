@@ -38,6 +38,15 @@ a:hover {
     text-decoration: underline;
 }
 
+/* h2 {
+    font-style: italic;
+} */
+
+ul {
+    padding-left: 25px;
+    list-style-type: "—  ";
+}
+
 /*****/
 
 #name_link a:link {
@@ -83,6 +92,19 @@ a:hover {
 
 #aboutme .right {
     flex-basis: 100%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#updates {
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+#publications {
+    margin-top: 25px;
     margin-right: 25px;
     margin-left: 25px;
 }
