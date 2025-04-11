@@ -47,6 +47,12 @@ ul {
     list-style-type: "—  ";
 }
 
+.highlight {
+    background-image: linear-gradient(to top, #FFFF99 67%, transparent 33%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 /*****/
 
 #name_link a:link {
