@@ -1,105 +1,94 @@
 html, body {
     margin: 0 auto;
     max-width: 1000px;
-    font-family: 'Noto Serif', 'serif';
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f4e9;
+    font-size: 15px;
+    line-height: 1.5;
     margin-top: 25px;
     margin-bottom: 25px;
   }
 
-#header {
-    flex-basis: 100%;
-    text-align: right;
-    margin-right: 25px;
-    margin-left: 25px;
-    display: flex;
-    justify-content: space-between;
+hr {
+    border: none;
+    border-top: 1px solid #e2d9c8;
 }
-
 
 footer {
     margin-left: 25px;
     margin-right: 25px;
-    font-family: 'Kalam';
-    font-weight: normal;
     text-align: center;
 }
 
 a:link {
-    color: MediumBlue;
+    color: #2456A6;
     text-decoration: none;
 }
 
-a:visited { 
-    color: MediumBlue;
-    text-decoration: none; 
+a:visited {
+    color: #2456A6;
+    text-decoration: none;
 }
 
-a:hover { 
+a:hover {
     text-decoration: underline;
 }
 
 #paper a:link {
-    color: mediumvioletred;
+    color: #2456A6;
     text-decoration: none;
 }
 
-#paper a:visited { 
-    color: mediumvioletred;
-    text-decoration: none; 
+#paper a:visited {
+    color: #2456A6;
+    text-decoration: none;
 }
 
 #paper a:hover { 
     text-decoration: underline;
 }
 
-/* h2 {
-    font-style: italic;
-} */
+h2 {
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: black;
+}
 
 ul {
-    padding-left: 25px;
-    list-style-type: "—  ";
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
 }
 
 .highlight {
-    background-image: linear-gradient(to top, #FFFF99 67%, transparent 33%);
+    background-image: linear-gradient(to top, #f5e2ab 50%, transparent 50%);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .emphasize {
-    color: MediumVioletRed
-}
-
-/*****/
-
-#name_link a:link {
-    color: black;
-}
-
-#name_link a:visited { 
-    color: black;
-    text-decoration: none; 
-}
-
-#name_link a:hover { 
-    text-decoration: none;
+    color: #2456A6
 }
 
 #profile-picture {
-    /* border-radius: 50px; */
-    display: flexbox;
-    border-color: black;
-    border-width: 0px;
-    border-style: solid;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
 }
 
 #hello {
     margin-left: 0px;
     margin-right: 0px;
-    font-family: 'Kalam';
-    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
     font-size: xx-large;
+    text-align: center;
+    color: #000000;
 }
 
 #aboutme {
@@ -124,6 +113,16 @@ ul {
     margin-top: 25px;
     margin-right: 25px;
     margin-left: 25px;
+}
+
+#toggle-updates {
+    cursor: pointer;
+    color: #2456A6;
+    text-decoration: none;
+}
+
+#toggle-updates:hover {
+    text-decoration: underline;
 }
 
 
